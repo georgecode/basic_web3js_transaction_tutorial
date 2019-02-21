@@ -1,17 +1,43 @@
-
-if not installed already install create-react-app globally 
+if not installed already install create-react-app globally
 web_wallet:> npm i -g create-react-app
-
 
 Create a new react boiler plate by running create-react-app in project’s main directory.
 web_wallet:> create-react-app web_wallet
 
+import Web3 from "web3";
+import Tx from "ethereumjs-tx"
 
+clean up boiler plate
+index.js should look like this EXAMPLE
+App.js should look like this EXAMPLE
 
+delete
+logo.svg
+index.css
 
+sign up for infura
+https://infura.io/
 
+create new project
 
-## Create React APP STUFF BELOW 
+name it web_wallet
+
+select KOVAN as end point
+
+link for more info about end points
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+
+## Create React APP STUFF BELOW
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
