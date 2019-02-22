@@ -21,7 +21,7 @@ create new project
 
 name it web_wallet
 
-select KOVAN as end point
+select KOVAN as end point, copy end point
 
 link for more info about end points
 
@@ -38,6 +38,7 @@ import Web3 from "web3";
 import Tx from "ethereumjs-tx"
 
 generate keys copy and save them
+YOU WILL NEED THEM LATER
 these will act as you test account keys
 ispect page for keys
 
@@ -56,17 +57,34 @@ with github or twitter
 paste public key to chat
 
 wait about 1 min for conformation and funding
+etherscan link can show when transaction goes through
 
 this will act as you test account to send funds to
 and receive funds from
 //End sign up for gitter
 
+add check balance
+
 //Generate project keys
 Now generat another pair of keys
+you can do this by refreshing the react page you created
 
-copy and save them they will act as your project keys
+copy and save them, they will act as your project keys
 
 //End Generate Project Keys
+
+//Check account balances to make sure everything is working
+
+check App.js
+run it
+
+All amounts are in wei ~ 0.000000000000000001 Ether
+
+Account 1 (Your test account The one you funded on gitter) should have 3000000000000000000 wei
+
+Account 2 (Your Project account) should have 0 wei
+
+//END Check account balances
 
 /
 /
