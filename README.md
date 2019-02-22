@@ -4,9 +4,6 @@ web_wallet:> npm i -g create-react-app
 Create a new react boiler plate by running create-react-app in project’s main directory.
 web_wallet:> create-react-app web_wallet
 
-import Web3 from "web3";
-import Tx from "ethereumjs-tx"
-
 clean up boiler plate
 index.js should look like this EXAMPLE
 App.js should look like this EXAMPLE
@@ -14,7 +11,21 @@ App.js should look like this EXAMPLE
 delete
 logo.svg
 index.css
+//END CLEAN UP
 
+//install web 3 && ethereumjs-tx
+
+install web3.js
+:>npm install web3
+
+install ethereumjs-tx
+:>npm i ethereumjs-tx
+
+import Web3 from "web3";
+import Tx from "ethereumjs-tx"
+//End web3 && ethereumjs-tx install
+
+//Start sign up for infura
 sign up for infura
 https://infura.io/
 
@@ -25,6 +36,21 @@ name it web_wallet
 select KOVAN as end point
 
 link for more info about end points
+
+//END sign up for infura
+
+//Add web 3 var to app.js
+
+//END Add web 3 var
+
+//Start sign up for Gitter.i0
+
+https://gitter.im/kovan-testnet/faucet
+
+with github or twitter
+
+//End sign up for gitter
+
 /
 /
 /
